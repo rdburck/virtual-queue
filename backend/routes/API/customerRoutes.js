@@ -1,5 +1,5 @@
 const db = require('../../models');
-const router = require("express").Router;
+const router = require('express').Router();
 
 router.post('data', (req, res) => {
     console.log('server side', req.body);
